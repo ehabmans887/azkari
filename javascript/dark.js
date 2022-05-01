@@ -18,7 +18,7 @@ darkButt.onclick = function dark() {
     root.style.setProperty("--border-color", "#222228");
     root.style.setProperty("--main-color", "#b8c2cc");
     prayTime.src =
-      "http://prayertimes3.today/embed/?city=170&azan=true&time=false&intro=false&next-prayer=true&remove-link=true&width=100%&lang=ar&color=383252";
+      "https://prayertimes3.today/embed/?city=170&azan=true&time=false&intro=false&next-prayer=true&remove-link=true&width=100%&lang=ar&color=383252";
   } else {
     localStorage.setItem("isDarkMode", false);
     darkButtSpan.innerHTML = "العادي";
@@ -27,7 +27,7 @@ darkButt.onclick = function dark() {
     root.style.setProperty("--border-color", "#e5e7eb");
     root.style.setProperty("--main-color", "#4827d0");
     prayTime.src =
-      "http://prayertimes3.today/embed/?city=170&azan=true&time=false&intro=false&next-prayer=true&remove-link=true&width=100%&lang=ar&color=4827d0";
+      "https://prayertimes3.today/embed/?city=170&azan=true&time=false&intro=false&next-prayer=true&remove-link=true&width=100%&lang=ar&color=4827d0";
   }
 };
 if (localStorage.getItem("isDarkMode") === "true") {
