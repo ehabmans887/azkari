@@ -96,3 +96,4 @@ reset.onclick = function () {
   strokeWidth = 315;
   circle.setAttribute("stroke-dashoffset", strokeWidth);
 };
+//------------------------------
