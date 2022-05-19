@@ -23,7 +23,7 @@ darkButt.onclick = function dark() {
     darkButtI.classList.add("fa-sun-bright");
     darkButtI.classList.remove("fa-moon");
     root.style.setProperty("--border-color", "#e5e7eb");
-    root.style.setProperty("--main-color", "#4827d0");
+    root.style.setProperty("--main-color", "#2196f3");
   }
 };
 if (localStorage.getItem("isDarkMode") === "true") {
@@ -41,5 +41,5 @@ if (localStorage.getItem("isDarkMode") === "true") {
   darkButtI.classList.add("fa-sun-bright");
   darkButtI.classList.remove("fa-moon");
   root.style.setProperty("--border-color", "#e5e7eb");
-  root.style.setProperty("--main-color", "#4827d0");
+  root.style.setProperty("--main-color", "#2196f3");
 }
