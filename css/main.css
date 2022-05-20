@@ -758,7 +758,16 @@ main .reset:hover {
 /* end contact */
 /* start quran */
 .quran {
-  height: calc(100vh - 103px);
+  height: calc(100vh - 85px);
+  width: 100%;
   max-width: 100%;
+}
+.hider {
+  position: absolute;
+  width: 100%;
+  height: 75px;
+  background-color: var(--main-color);
+  z-index: 59;
+  bottom: -18px;
 }
 /* end quran */
