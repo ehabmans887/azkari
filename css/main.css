@@ -756,3 +756,9 @@ main .reset:hover {
   color: var(--main-color);
 }
 /* end contact */
+/* start quran */
+.quran {
+  height: calc(100vh - 103px);
+  max-width: 100%;
+}
+/* end quran */
