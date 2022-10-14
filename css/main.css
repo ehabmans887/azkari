@@ -496,27 +496,6 @@ main .reset:hover {
   height: 42px;
 }
 /* end main  */
-/* start prytime */
-.praytime iframe {
-  height: 301px;
-  width: 500px;
-  max-width: 100%;
-  border: none;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  user-select: none;
-}
-.praytime {
-  width: fit-content;
-  height: fit-content;
-  margin: 80px auto 0;
-  padding: 20px;
-  user-select: none;
-}
-/* end prytime */
 /* start loader */
 .loader {
   position: absolute;
@@ -771,3 +750,42 @@ main .reset:hover {
   bottom: -18px;
 }
 /* end quran */
+/* start prayer time  */
+.prayTimeSection {
+  padding: 30px 0;
+}
+.prayTimeSection .container {
+  width: 500px;
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.prayTimeSection .container .location {
+  font-size: 2em;
+  color: var(--main-color);
+  margin-bottom: 15px;
+}
+.prayTimeSection .container .date {
+  background-color: var(--border-color);
+  padding: 20px 0;
+  margin-bottom: 15px;
+}
+.prayTimeSection .container .prayTimes div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-bottom: 1px solid var(--border-color);
+}
+.prayTimeSection .container .prayTimes div span:first-child {
+  font-family: naksh, sans-serif;
+  line-height: 2;
+  font-family: naksh, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+.prayTimeSection .container .prayTimes div span:last-child {
+  direction: ltr;
+}
+/* start prayer time  */
